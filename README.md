@@ -8,5 +8,5 @@ pages created with Hadoop framework, and a distributed system for determining se
 
 This project involved developing a series of MapReduce programs with Hadoop Streaming to create an inverted index of scraped Wikipedia articles. After generating the inverted index, I built an index server (a REST API) to manage individual segments of it and created a server-side dynamic pages application that aggregates results from each of these segments and delivers search results to the user. **The frontend was developed using plain HTML, and the backend with Flask and MySQL**. 
 
-I gained experience in efficiently processing large-scale data with Hadoop Streaming, understanding page ranking systems and inverted indexes, and utilizing distributed system design (sharding and replication) and service-oriented architecture to scale dynamic pages and web search.
+This project taught me how to efficiently process large-scale data using Hadoop Streaming. I also explored page ranking systems and inverted indexes, and I learned to implement distributed system design techniques, such as sharding and replication, along with service-oriented architecture to scale dynamic web pages and improve web search capabilities.
 
